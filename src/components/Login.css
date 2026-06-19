@@ -1,0 +1,125 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px); 
+  padding: 20px;
+}
+
+.registration-form {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.registration-form:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+
+.form-subtitle {
+  font-size: 13px;
+  color: #6c757d;
+  margin: 0 0 28px 0;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 30px; 
+  background-color: #f8f9fa;
+  color: #212529;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #ff922b; 
+  box-shadow: 0 0 0 3px rgba(255, 146, 43, 0.15);
+  background-color: #ffffff;
+}
+
+.btn-submit {
+  background-color: #ff922b; 
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(255, 146, 43, 0.2);
+}
+
+.btn-submit:hover {
+  background-color: #f76707;
+}
+
+.btn-submit:active {
+  transform: scale(0.98);
+}
+
+.form-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.form-footer a {
+  color: #ff922b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.form-footer a:hover {
+  color: #f76707;
+  text-decoration: underline;
+}
+
+
+.toggle-link {
+  color: #ff922b; 
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  margin-left: 5px;
+}
+
+.toggle-link:hover {
+  color: #f76707;
+  text-decoration: underline;
+}
