@@ -7,6 +7,8 @@ import Kitoblar from './components/Kitoblar'
 import Mualliflar from './components/Mualliflar'
 import Chegirmalar from './components/Chegirmalar'
 import Footer from './components/Footer'
+import Card from './components/Card'
+
 
 function App() {
   return (

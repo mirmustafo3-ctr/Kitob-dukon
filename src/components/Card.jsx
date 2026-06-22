@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import b1 from '../assets/b1.jpg'
 import b2 from '../assets/b2.jpg'
@@ -7,7 +7,7 @@ import b4 from '../assets/b4.jpg'
 import b5 from '../assets/b5.jpg'
 import b6 from '../assets/b6.jpg'
 
-function Home() {
+function Card() {
 const [products, setProduct] = useState([
   {
       id: 13134, 
@@ -114,5 +114,4 @@ const [products, setProduct] = useState([
     </div>
   )
 }
-
-export default Home
+export default Card
