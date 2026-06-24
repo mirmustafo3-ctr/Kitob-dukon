@@ -30,3 +30,7 @@
 .kitoblar-filter button:active {
   transform: translateY(0);    
 }
+.kitoblar-filter button:focus {
+  background-color: #ff922b;
+  color:#ffffff
+}
